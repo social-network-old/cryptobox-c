@@ -1,0 +1,14 @@
+[package]
+name         = "cryptobox"
+version      = "1.0.3"
+authors      = ["Social Technologies LTD <support@social.network>"]
+description  = "High-level API for proteus with persistent storage."
+homepage     = "https://github.com/social-network/cryptobox"
+repository   = "git@github.com:social-network/cryptobox.git"
+license      = "GPL-3.0"
+
+[dependencies]
+byteorder  = ">= 0.5.1"
+cbor-codec = ">= 0.7.0"
+proteus    = { git = "https://github.com/social-network/proteus", tag = "v1.0.3" }
+
